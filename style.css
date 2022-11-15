@@ -1,0 +1,50 @@
+
+body {
+    background-image: url('https://revistaelconocedor.com/wp-content/uploads/2015/12/historia.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#mayorDeEdad {
+    width: 500px;
+    height: 150px;
+    background-color: azure;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.itemCarro {
+    display: flex;
+    justify-content: space-around
+}
+
+.bebida {
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    float: left;
+    width: 10%;
+    margin-top: 30%;
+    margin-left: 3%;
+  }
+
+button {
+    font-size: 10px;
+    width: 100%;
+    height: 20px;
+}
+
